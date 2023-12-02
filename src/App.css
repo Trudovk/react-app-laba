@@ -26,8 +26,15 @@
   }
 }
 
-.card {
-  padding: 2em;
+#root {
+  margin: 0 auto;
+}
+
+.App {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .main {
