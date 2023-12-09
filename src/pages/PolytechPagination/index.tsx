@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import { Pagination } from "./components/Pagination";
-import { StaffList } from "./components/staffList";
-import "./App.css";
+import { Pagination } from "../../components/pagination";
+import { StaffList } from "../../components/staffList";
+import "../../App.css";
 
 function PolytechPagination() {
   const [currentPage, setCurrentPage] = useState(1);
